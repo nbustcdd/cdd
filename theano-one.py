@@ -26,7 +26,7 @@ class Layer(object):
 
 
 # Make up some fake data
-x_data = np.linspace(-1, 2, 300)[:, np.newaxis]
+x_data = np.linspace(-1, 3, 300)[:, np.newaxis]
 noise = np.random.normal(0, 0.05, x_data.shape)
 y_data = np.square(x_data) - 0.5 + noise        # y = x^2 - 0.5
 
